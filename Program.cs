@@ -9,6 +9,7 @@ global using Microsoft.IdentityModel.Tokens;
 global using Swashbuckle.AspNetCore.Filters;
 global using Microsoft.OpenApi.Models;
 global using dotnet_rpg.Services.WeaponService;
+global using dotnet_rpg.Services.FightService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,6 +34,7 @@ builder.Services.AddAutoMapper(typeof(Program).Assembly);
 builder.Services.AddScoped<ICharacterService, CharacterService>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IWeaponService, WeaponService>();
+builder.Services.AddScoped<IFightService, FightService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options => 
     {
