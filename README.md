@@ -20,7 +20,7 @@ Este projeto é um RPG em que os usuários podem criar personagens, equipá-los 
 
 ## Tecnologias
 
-- ASP.NET Core
+- .NET 7
 - Entity Framework Core
 - JWT (JSON Web Tokens)
 - C#
