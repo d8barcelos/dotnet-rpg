@@ -2,7 +2,6 @@
 
 Este é um projeto ASP.NET Core que implementa um RPG (Role-Playing Game) com recursos de autenticação de usuário. O projeto permite que os usuários se registrem, façam login, obtenham tokens JWT e explorem o mundo do jogo enquanto interagem com seus personagens e habilidades.
 
-![RPG Screenshot](rpg-screenshot.png)
 
 ## Conteúdo
 
